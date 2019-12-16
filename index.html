@@ -1,91 +1,459 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Vatsal Aima</title>
-		<meta charset="utf-8" />
-		<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
-		<link rel="manifest" href="assets/icons/site.webmanifest">
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vatsal Aima - Profile</title>
+<meta name="description" content="">
+<meta name="author" content="">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<!-- Favicons
+    ================================================== -->
+<!--
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+-->
+<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+<link rel="manifest" href="icons/site.webmanifest">
 
-				<!-- Main -->
-					<section id="main">
-						<header>
-							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
-							<h1>Vatsal Aima</h1>
-							<p>Business Analyst</p>
-						</header>
-						<!--
-						<hr />
-						<h2>Extra Stuff!</h2>
-						<form method="post" action="#">
-							<div class="fields">
-								<div class="field">
-									<input type="text" name="name" id="name" placeholder="Name" />
-								</div>
-								<div class="field">
-									<input type="email" name="email" id="email" placeholder="Email" />
-								</div>
-								<div class="field">
-									<select name="department" id="department">
-										<option value="">Department</option>
-										<option value="sales">Sales</option>
-										<option value="tech">Tech Support</option>
-										<option value="null">/dev/null</option>
-									</select>
-								</div>
-								<div class="field">
-									<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
-								</div>
-								<div class="field">
-									<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
-								</div>
-								<div class="field">
-									<label>But are you a robot?</label>
-									<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
-									<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
-								</div>
-							</div>
-							<ul class="actions special">
-								<li><a href="#" class="button">Get Started</a></li>
-							</ul>
-						</form>
-						<hr />
-						-->
-						<footer>
-							<ul class="icons">
-								<li><a href="https://vaima75.github.io/" class="icon brands fa-github-alt">GitHub</a></li>
-								<li><a href="https://www.linkedin.com/in/vatsal-aima/" class="icon brands fa-linkedin-in">LinkedIn</a></li>
-								<li><a href="https://www.facebook.com/VatsalAima" class="icon brands fa-facebook-f">Facebook</a></li>
-								<li><a href="https://twitter.com/VatsalAima" class="icon brands fa-twitter">Twitter</a></li>
-							</ul>
-						</footer>
-					</section>
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li>&copy; Vatsal Aima</li>
-						</ul>
-					</footer>
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
 
-			</div>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-		<!-- Scripts -->
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
-
-	</body>
+<!-- Header -->
+<header id="header">
+  <div class="intro">
+    <div class="container">
+      <div class="row">
+        <div class="intro-text">
+          <h1>Hi, I'm <span class="name">Vatsal Aima</span></h1>
+          <p>Data Science, AI & ML Enthusiastic</p>
+          <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- Navigation -->
+<div id="nav">
+  <nav class="navbar navbar-custom">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+        <a class="navbar-brand page-scroll" href="#page-top">Vatsal Aima</a> </div>
+      
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden"> <a href="#page-top"></a> </li>
+          <li> <a class="page-scroll" href="#about">About</a> </li>
+          <li> <a class="page-scroll" href="#skills">Skills</a> </li>
+          <li> <a class="page-scroll" href="#portfolio">Portfolio</a> </li>
+		  <li> <a class="page-scroll" href="#achievements">Stats</a> </li>
+          <li> <a class="page-scroll" href="#resume">Experience</a> </li>
+          <li> <a class="page-scroll" href="#contact">Contact</a> </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+<!-- About Section -->
+<div id="about">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>About Me</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center"><img src="img/vapic.jpeg" class="img-responsive"></div>
+      <div class="col-md-8 col-md-offset-2">
+        <div class="about-text">
+          <p>My name is Vatsal Aima and I'm a Business Analyst with experience in Machine Learning (ML) and Data science applications. My background is in business intelligence, model development and service management for clientle in different business domains. </p>
+          <p>I'm passionate about the understanding and applications of Artificial Inteligence in non-IT fields. I consider myself a ‘forever student,’ eager to both build on academic foundations in computer science and business statistics and stay in tune with the latest  business strategies through analytics.I'm currently working as a freelance analyst and is always interested in a challenge. Reach out to vaima75@gmail.com to connect!</p>
+          <p class="text-center"><a class="btn btn-primary" href="mail/MBA_BusinessAnalytics_VatsalAima.pdf"><i class="fa fa-download"></i> Download Resume</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Skills Section -->
+<div id="skills" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Primary Skills</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="90"> <span class="percent">90</span> </span>
+        <h4>R</h4>
+      </div>
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="85"> <span class="percent">85</span> </span>
+        <h4>EDA</h4>
+      </div>
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span> </span>
+        <h4>Python</h4>
+      </div>
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span> </span>
+        <h4>SQL</h4>
+      </div>
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="75"> <span class="percent">75</span> </span>
+        <h4>Tableau</h4>
+      </div>
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="75"> <span class="percent">75</span> </span>
+        <h4>Web Scraping</h4>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Section -->
+<div id="portfolio">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>Portfolio</h2>
+      <hr>
+    </div>
+    <div class="categories">
+      <ul class="cat">
+        <li>
+          <ol class="type">
+            <li><a href="#" data-filter="*" class="active">All</a></li>
+            <li><a href="#" data-filter=".tableau">Tableau</a></li>
+            <li><a href="#" data-filter=".ml">Machine Learning</a></li>
+            <li><a href="#" data-filter=".pkgs">Packages</a></li>
+          </ol>
+        </li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <div class="row">
+      <div class="portfolio-items">
+        <div class="col-sm-6 col-md-3 col-lg-3 tableau">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://public.tableau.com/profile/vatsal.aima#!/vizhome/LONDONBOROUGHCARBONFOOTPRINTOVERVIEWFINAL_15720402071340/DBCO2EmissionByCitiesOverYears" title="Tableau Viz">
+              <div class="hover-text">
+                <h4>London Borough Carbon Footprint Overview</h4>
+                <small>Tableau</small> </div>
+              <img src="img/portfolio/tableau.jpg" class="img-responsive" alt="London Borough Carbon Footprint Overview"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 ml">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://vaima75.github.io/TresVista-Card-Offer/" title="ML Classification R">
+              <div class="hover-text">
+                <h4>TresVista Card Offer Promotion</h4>
+                <small>Machine Learning (Classification - R)</small> </div>
+              <img src="img/portfolio/ml.jpg" class="img-responsive" alt="Card Offer Promotion"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 tableau">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://public.tableau.com/profile/vatsal.aima#!/vizhome/UdemyCourses/DBUdemyDashboard" title="Tableau Viz">
+              <div class="hover-text">
+                <h4>Udemy Courses Anaysis</h4>
+                <small>Tableau</small> </div>
+              <img src="img/portfolio/tableau.jpg" class="img-responsive" alt="Udemy Courses Anaysis"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 tableau">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://public.tableau.com/profile/vatsal.aima#!/vizhome/AutomobileRiskEvaluation/STAutomobilePresentation" title="Tableau Viz">
+              <div class="hover-text">
+                <h4>Automobile Risk Evaluation</h4>
+                <small>Tableau</small> </div>
+              <img src="img/portfolio/tableau.jpg" class="img-responsive" alt="Automobile Risk Evaluation"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 ml">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://vaima75.github.io/YesBank-Loan-Prediction/" title="ML Classification R" >
+              <div class="hover-text">
+                <h4>YesBank Loan Prediction</h4>
+                <small>Machine Learning (Classification - R)</small> </div>
+              <img src="img/portfolio/ml.jpg" class="img-responsive" alt="Loan Prediction"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 pkgs">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://vaima75.github.io/MediaNews/" title="R Package">
+              <div class="hover-text">
+                <h4>MediaNews</h4>
+                <small>Packages - GitHub</small> </div>
+              <img src="img/portfolio/pkgs.jpg" class="img-responsive" alt="MediaNews"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 ml">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://vaima75.github.io/AmExpert/" title="ML Classification Python" >
+              <div class="hover-text">
+                <h4>American Express AmExpert</h4>
+                <small>Machine Learning (Classification - Python)</small> </div>
+              <img src="img/portfolio/ml.jpg" class="img-responsive" alt="AmExpert"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 tableau">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://public.tableau.com/profile/vatsal.aima#!/vizhome/WorldCo2EmissionAnalysis_15720416997550/DBCo2EmissionoverTime" title="Tableau Viz">
+              <div class="hover-text">
+                <h4>World Co2 Emission Analysis</h4>
+                <small>Tableau</small> </div>
+              <img src="img/portfolio/tableau.jpg" class="img-responsive" alt="World Co2 Emission Analysis"> </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Achievements Section  -->
+<div id="achievements" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Stats</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="400ms">
+        <div class="achievement-box"> <span class="count">20</span>
+          <h4>Total Projects</h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="400ms">
+        <div class="achievement-box"> <span class="count">3</span>
+          <h4>Companies Worked</h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="400ms">
+        <div class="achievement-box"> <span class="count">2</span>
+          <h4>Certifications Earned</h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="400ms">
+        <div class="achievement-box"> <span class="count">3</span>
+          <h4>Years of Experience</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Resume Section -->
+<div id="resume" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Experience</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="timeline">
+          <li>
+            <div class="timeline-image">
+              <h4>Apr 2019 <br>
+                - <br>
+                Nov 2019 </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4><a href="https://gain-insights.com/">Gaininsights Solutions Pvt. Ltd.</a></h4>
+                <h4 class="subheading">Business Analyst</h4>
+              </div>
+              <div class="timeline-body">
+                <p>Business Inteligence and ITES</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <h4>Sep 2015 <br>
+                - <br>
+                June 2016 </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4><a href="https://www.airtel.in/about-bharti/about-bharti-airtel">Bharti Airtel Limited</a></h4>
+                <h4 class="subheading">Service Account Manager</h4>
+              </div>
+              <div class="timeline-body">
+                <p>Account Management and Telecom Services</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-image">
+              <h4>Sep 2013 <br>
+                - <br>
+                Nov 2014 </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4><a href="https://www.pinkerton.com/">Pinkerton Corporate Risk Management</a></h4>
+                <h4 class="subheading">Business Analyst</h4>
+              </div>
+              <div class="timeline-body">
+                <p>Consultation and Risk Management</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="section-title center">
+      <h2>Education</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="timeline">
+          
+          <!-- Education Section-->
+          
+          <li>
+            <div class="timeline-image">
+              <h4>2017 <br>
+                - <br>
+                2019 </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Symbiosis International University</h4>
+                <h4 class="subheading">SCMHRD</h4>
+              </div>
+              <div class="timeline-body">
+                <p>Master of Business Adminstration, Business Analytics</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <h4>2009 <br>
+                - <br>
+                2013 </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>University of Pune</h4>
+                <h4 class="subheading">COE Kopargaon</h4>
+              </div>
+              <div class="timeline-body">
+                <p>Bachelor of Engineering, Computer Engineering</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-image">
+              <h4>2004 <br>
+                - <br>
+                2007 </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Jammu and Kashmir BOSE</h4>
+                <h4 class="subheading">Model Institute of Education and Research</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">Higher Secondary Certificate, Science</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Contact Section -->
+<div id="contact" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Contact</h2>
+      <hr>
+    </div>
+    <div class="col-md-8 col-md-offset-2">
+      <div class="col-md-4"> <i class="fa fa-map-marker fa-2x"></i>
+        <p>101 Zolo Renaissance,<br>
+          Electronic City, Bangalore, KA 560100</p>
+      </div>
+      <div class="col-md-4"> <i class="fa fa-envelope-o fa-2x"></i>
+        <p>vaima75@gmail.com</p>
+      </div>
+      <div class="col-md-4"> <i class="fa fa-phone fa-2x"></i>
+        <p> +91 810 532 8350</p>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="col-md-8 col-md-offset-2">
+      <h3>Leave a message</h3>
+      <form name="sentMessage" id="contactForm" novalidate>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+          <p class="help-block text-danger"></p>
+        </div>
+        <div id="success"></div>
+        <button type="submit" class="btn btn-default">Send Message</button>
+      </form>
+      <div class="social">
+        <ul>
+          <li><a href="https://www.facebook.com/VatsalAima"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://twitter.com/VatsalAima"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://vaima75.github.io/"><i class="fa fa-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/vatsal-aima/"><i class="fa fa-linkedin"></i></a></li>
+		  <!-- <li><a href="https://medium.com/@VatsalAima"><i class="fa fa-medium"></i></a></li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div class="container text-center">
+    <div class="fnav">
+      <p>Copyright &copy; 2019 Vatsal Aima</p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/easypiechart.js"></script> 
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/jquery.counterup.js"></script> 
+<script type="text/javascript" src="js/waypoints.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript" src="js/main.js"></script>
+</body>
 </html>
